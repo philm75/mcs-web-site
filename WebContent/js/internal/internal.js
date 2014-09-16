@@ -3,28 +3,38 @@ $(function() {
 	$("#sd-more-info").hide();
 			
 	$('#service-more-info-link').click(function(){
-		$("#service-more-info").slideToggle("fast", function() {
+		$("#service-more-info").toggle("fast", function() {
+			var link = $("#service-more-info-link").detach();
 			if ($("#service-more-info").is(":hidden")) {
-				$("#service-more-info-link").attr('value', 'Read more');
-				$("#service-more-info-link").text('Read more');
+				link.attr('value', 'Read more');
+				link.text('Read more');
+				$("#more-service").append(link);
 			} else {
-				$("#service-more-info-link").attr('value', 'Read less');
-				$("#service-more-info-link").text('Read less');
+				link.attr('value', 'Read less');
+				link.text('Read less');
+				$("#less-service").append(link);				  							
 			}			
 		});
 	});
 
 	$('#sd-more-info-link').click(function(){
-		$("#sd-more-info").slideToggle("fast", function() {
+		$("#sd-more-info").toggle("fast", function() {
+			var link = $("#sd-more-info-link").detach();
 			if ($("#sd-more-info").is(":hidden")) {
-				$("#sd-more-info-link").attr('value', 'Read more');
-				$("#sd-more-info-link").text('Read more');
+				link.attr('value', 'Read more');
+				link.text('Read more');
+				$("#more-sd").append(link);
 			} else {
-				$("#sd-more-info-link").attr('value', 'Read less');
-				$("#sd-more-info-link").text('Read less');
+				link.attr('value', 'Read less');
+				link.text('Read less');
+				$("#less-sd").append(link);
 			}					
 		});
 	});
+	
+	function addLink() {
+		
+	}
 });
 
 
