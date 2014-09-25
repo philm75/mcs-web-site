@@ -1,11 +1,3 @@
-{"skills":[{"area":"Programming Languages","name":"Java and related frameworks"},
-           {"area":"Programming Languages","name":"Java EE"},
-           {"area":"Programming Languages","name":"Groovy"},
-           {"area":"Programming Languages","name":"Web (HTML, CSS, JavaScript, JQuery)"},
-           {"area":"Programming Languages","name":"SQL"},
-           {"area":"Programming Languages","name":"PL-SQL"},
-           {"area":"Databases","name":"Oracle"},
-           {"area":"Databases","name":"DB2"},
-           {"area":"Databases","name":"My-SQL"},
-           {"area":"Server/Platforms","name":"OracleApplication servers including Tomcat, JBoss and Web logic"},
-           {"area":"Server/Platforms","name":"Operating Systems including UNIX, LINUX and Windows"}]}
+{skills:[{"area":"Programming Languages","names":["Java and related frameworks","Java EE","Groovy","Web (HTML, CSS, JavaScript, JQuery)","SQL","PL-SQL"]},
+         {"area":"Databases"            ,"names":["Oracle", "DB2", "My-SQL"]},
+         {"area":"Server/Platforms"     ,"names":["OracleApplication servers including Tomcat, JBoss and Web logic","Operating Systems including UNIX, LINUX and Windows"]}]}
